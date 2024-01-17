@@ -1,6 +1,8 @@
+import java.util.Date;
+
 public class Rezerwacja {
-    String DataWypożyczenia;
-    String DataZwrotu;
+    Date DataWypożyczenia;
+    Date DataZwrotu;
     Klient klient;
     Samochód samochód;
 

@@ -6,9 +6,9 @@ public class Klient {
     String imie;
     String nazwiko;
     String nrPrawaJazdy;
-    String nrTelefonu;
-    String PESEL;
+    int nrTelefonu;
+    int PESEL;
     List<Rezerwacja> rezerwacje;
     public String OdczytDanychKlienta(){return null;}
-    public void WprowadzenieDanychKlienta(String imie, String nazwiko, String nrTelefonu, String email, String adres, String PESEL, String nrPrawaJazdy){}
+    public void WprowadzenieDanychKlienta(String imie, String nazwiko, int nrTelefonu, String email, String adres, int PESEL, String nrPrawaJazdy){}
 }

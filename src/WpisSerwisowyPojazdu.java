@@ -1,8 +1,10 @@
+import java.util.Date;
+
 public class WpisSerwisowyPojazdu {
     Mechanik wykonawca;
     Samochód samochód;
-    String dataSerwisowania;
-    String opisCzynności;
+    Date dataSerwisowania;
+    Date opisCzynności;
     public void DodanieWpisuSerwisowego(String OpisCzynnościSerwisowych){}
     public String OdczytWpisówSerwisowychPojazdu(){return null;}
 
